@@ -7,8 +7,7 @@ get '/reverse/:name' do
 @name = params[:name]
 "#{@name.reverse}"
 end
-end
-
+# Number two
 
 
 
