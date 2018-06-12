@@ -22,7 +22,7 @@ end
 # Number three
 class App < Sinatra::Base
   
-  get/
+  get '/say/:number/:phrase' do
 
 
 
