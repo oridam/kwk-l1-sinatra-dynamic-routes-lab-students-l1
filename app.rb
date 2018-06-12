@@ -7,10 +7,17 @@ get '/reverse/:name' do
 @name = params[:name]
 "#{@name.reverse}"
 end
+end
+
+
 # Number two
+class App < Sinatra::Base
 
-
-
+get '/square/:nubmer' do
+  x = (params[:number].to_i)* (params[:number].to_i)
+  "#{x}"
+end
+end
 
 
 
