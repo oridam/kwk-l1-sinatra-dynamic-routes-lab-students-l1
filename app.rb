@@ -8,3 +8,16 @@ get '/reverse/:name' do
 "#{@name.reverse}"
 end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
