@@ -20,7 +20,9 @@ end
 end
 
 # Number three
-
+class App < Sinatra::Base
+  
+  get/
 
 
 
